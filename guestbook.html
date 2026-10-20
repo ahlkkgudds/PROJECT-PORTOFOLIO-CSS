@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>GuestBook | Website Profil Bagus Ahlik</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+        <link href="mystyle.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="bungkus">
+            <!-- Menu Atas -->
+            <nav class="top-menu">
+                <ul>
+                    <li><a href="mailto:ahlikbagus@gmail.com" target="_blank">Email</a></li>
+                    <li><a href="https://www.instagram.com/bagsssahlk_/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@side9wxndr" target="_blank">TikTok</a></li>
+                    <li><a href="https://wa.me/6282287060064" target="_blank">WhatsApp</a></li>
+                </ul>
+            </nav>
+            <!-- Header -->
+            <header class="header">
+                <img alt="Bagus Ahlik, mahasiswa" src="gambar/header.jpg" />
+            </header>
+            <!-- NavBar -->
+            <div class="bungkus-nav">
+                <div class="nav-bar">
+                    <nav class="daftar-nav">
+                        <a href="index.html">Home</a>
+                        <a href="profil.html">Profile</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="article.html">Article</a>
+                        <a class="aktif" href="guestbook.html">GuestBook</a>
+                        <a href="tutorial.html">Tutorial</a>
+                        <a href="aboutme.html">About Me</a>
+                    </nav>
+                    <form action="#" class="search-form">
+                        <input name="cari" placeholder="Cari..." type="search" />
+                        <input type="submit" value="Cari" />
+                    </form>
+                </div>
+            </div>
+            <!-- Isi -->
+            <div class="isi">
+                <!-- Menu Kiri -->
+                <aside class="kiri">
+                    <div class="kartu-sisi">
+                        <h3>Menu</h3>
+                        <ul class="daftar-menu">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="profil.html">Profile</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="article.html">Article</a></li>
+                            <li><a class="aktif" href="guestbook.html">GuestBook</a></li>
+                            <li><a href="tutorial.html">Tutorial</a></li>
+                            <li><a href="aboutme.html">About Me</a></li>
+                        </ul>
+                    </div>
+                    <div class="kartu-sisi">
+                        <h3>Gallery berjalan</h3>
+                        <div class="galeri-berjalan">
+                            <div class="galeri-jalur">
+                                <img alt="Foto galeri 1" src="gambar/1000031465.jpg" />
+                                <img alt="Foto galeri 2" src="gambar/4306.jpg" />
+                                <img alt="Foto galeri 3" src="gambar/4315.jpg" />
+                                <img alt="Foto galeri 4" src="gambar/1000255436.jpg" />
+                                <img alt="Foto galeri 5" src="gambar/save_20230417_110113.jpg" />
+                                <!-- Salinan foto, supaya geserannya tidak putus -->
+                                <img alt="" src="gambar/1000031465.jpg" />
+                                <img alt="" src="gambar/4306.jpg" />
+                                <img alt="" src="gambar/4315.jpg" />
+                                <img alt="" src="gambar/1000255436.jpg" />
+                                <img alt="" src="gambar/save_20230417_110113.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Konten Utama -->
+                <main class="kanan">
+                    <section class="kotak">
+                        <h1 class="judul-halaman">GuestBook</h1>
+                        <p class="sub-halaman">Silakan tinggalkan pesan untuk saya.</p>
+                        <form action="#" method="post" class="form-tamu">
+                            <label>Nama
+                                <input name="nama" placeholder="Masukkan nama" required type="text" />
+                            </label>
+                            <label>Email
+                                <input name="email" placeholder="Masukkan email" type="email" />
+                            </label>
+                            <label>Pesan
+                                <textarea name="pesan" placeholder="Tetap semangat" required></textarea>
+                            </label>
+                            <div class="aksi">
+                                <input class="tombol-kirim" type="submit" value="Kirim" />
+                                <input class="tombol-batal" type="reset" value="Bersihkan" />
+                            </div>
+                        </form>
+                        <hr />
+                        <a class="link-kembali" href="index.html">Kembali ke Beranda</a>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="bungkus">
+                <p class="nama-kampus">Matakuliah Pemograman Web Kelas 3E</p>
+                <p>Program Studi Sistem Informasi Fakultas Sains dan Teknologi</p>
+                <p>Universitas Islam Negeri Sultan Syarif Kasim Riau</p>
+                <p>All Reserved &copy; 2026</p>
+            </div>
+        </footer>
+    </body>
+</html>
